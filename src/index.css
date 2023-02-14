@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+  }
+  .tableHeader {
+    background-color: black;
+    color: #ffff;
+    font-weight: bold;
+  }
+  .tableHeader th {
+    font-size: 15px;
+    padding: 14px;
+  }
+  .tableBody td {
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .tableBody tr {
+    border: 1px solid lightslategray;
+  }
